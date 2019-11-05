@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:transitionName="sence1"
+        android:src="@mipmap/p1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <!--transitionName很重要，前后两个sence就是根据这个属性相关联的-->
+
+    <ImageView
+        android:transitionName="sence2"
+        android:src="@mipmap/p2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</RelativeLayout>
